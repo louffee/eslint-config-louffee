@@ -3,7 +3,7 @@ const ERROR = "error";
 const ALWAYS = "always";
 
 module.exports = {
-  plugins: ["react"],
+  plugins: ["react", "jsx-a11y"],
   rules: {
     "react/destructuring-assignment": [ERROR, ALWAYS],
     "react/button-has-type": ERROR,
