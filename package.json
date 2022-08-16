@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-louffee",
+  "name": "eslint-config-louffee",
   "version": "2.0.0",
   "description": "The ESLint profile settings used for the projects developed @ Louffee.",
   "files": [
@@ -8,7 +8,7 @@
     "react.js",
     "react-native.js"
   ],
-  "repository": "git@github.com:louffee/eslint-plugin-louffee.git",
+  "repository": "git@github.com:louffee/eslint-config-louffee.git",
   "author": "Leonardo Lemos <leo.lemos@louffee.co>",
   "license": "MIT",
   "publishConfig": {
