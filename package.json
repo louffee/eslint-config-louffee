@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-louffee",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "The ESLint profile settings used for the projects developed @ Louffee.",
   "files": [
     "./tools",
