@@ -14,6 +14,14 @@
   "publishConfig": {
     "access": "public"
   },
+  "keywords": [
+    "eslint",
+    "plugin",
+    "louffee",
+    "eslint-config",
+    "prettier",
+    "lint"
+  ],
   "private": false,
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.33.0",
