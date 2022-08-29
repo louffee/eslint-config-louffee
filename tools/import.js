@@ -1,4 +1,5 @@
 const DISABLED = "off";
+const ERROR = "error";
 
 module.exports = {
   plugins: ["import"],

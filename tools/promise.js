@@ -1,3 +1,5 @@
+const ERROR = "error";
+
 module.exports = {
   plugins: ["promise"],
   rules: {
