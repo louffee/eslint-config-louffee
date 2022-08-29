@@ -13,6 +13,7 @@ const base = ({ isBrowser } = {}) => {
       ...promise.plugins,
       isBrowser && "compat",
       "regexp",
+      "unicorn",
     ],
     env: isBrowser ? browser.env : {},
     rules: {
@@ -29,6 +30,7 @@ const base = ({ isBrowser } = {}) => {
       "eslint:recommended",
       isBrowser && "plugin:compat/recommended",
       "plugin:regexp/recommended",
+      "plugin:unicorn/recommended",
     ],
   };
 };
