@@ -11,7 +11,7 @@ const base = ({ isBrowser } = {}) => {
       ...jest.plugins,
       ...lang.plugins,
       ...promise.plugins,
-      "compat",
+      isBrowser && "compat",
       "regexp",
     ],
     env: isBrowser ? browser.env : {},
@@ -27,7 +27,7 @@ const base = ({ isBrowser } = {}) => {
     },
     extends: [
       "eslint:recommended",
-      "plugin:compat/recommended",
+      isBrowser && "plugin:compat/recommended",
       "plugin:regexp/recommended",
     ],
   };
