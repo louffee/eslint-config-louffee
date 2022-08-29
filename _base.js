@@ -25,7 +25,11 @@ const base = ({ isBrowser } = {}) => {
     parserOptions: {
       ...lang.parserOptions,
     },
-    extends: ["eslint:recommended", "plugin:regexp/recommended"],
+    extends: [
+      "eslint:recommended",
+      "plugin:compat/recommended",
+      "plugin:regexp/recommended",
+    ],
   };
 };
 
