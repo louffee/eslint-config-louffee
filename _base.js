@@ -31,6 +31,8 @@ const base = ({ isBrowser } = {}) => {
       isBrowser && "plugin:compat/recommended",
       "plugin:regexp/recommended",
       "plugin:unicorn/recommended",
+      "plugin:promise/recommended",
+      "plugin:jest/recommended",
     ],
   };
 };
