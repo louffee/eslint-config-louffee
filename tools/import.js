@@ -1,3 +1,5 @@
+const DISABLED = "off";
+
 module.exports = {
   plugins: ["import"],
   rules: {
