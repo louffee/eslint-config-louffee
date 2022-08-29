@@ -28,6 +28,8 @@ As we said above, we know there are talented people doing their contribution to 
 - `eslint-plugin-security` to handle the linting of security issues.
 - `eslint-plugin-storybook` to handle the linting of Storybook-related features.
 - `eslint-plugin-testing-library` to handle the linting of testing-library-related features.
+- `eslint-plugin-unicorn` to give the linting processes some powers.
+- `eslint-plugin-regexp` to handle the linting of regular expressions.
 
 ## Installation
 
