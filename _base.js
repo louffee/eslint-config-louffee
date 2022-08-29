@@ -12,6 +12,7 @@ const base = ({ isBrowser } = {}) => {
       ...lang.plugins,
       ...promise.plugins,
       "compat",
+      "regexp",
     ],
     env: isBrowser ? browser.env : {},
     rules: {
@@ -24,6 +25,7 @@ const base = ({ isBrowser } = {}) => {
     parserOptions: {
       ...lang.parserOptions,
     },
+    extends: ["eslint:recommended", "plugin:regexp/recommended"],
   };
 };
 
