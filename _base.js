@@ -21,6 +21,15 @@ const base = ({ isBrowser } = {}) => {
       ...jest.rules,
       ...lang.rules,
       ...promise.rules,
+      "unicorn/filename-case": [
+        "error",
+        {
+          cases: {
+            camelCase: true,
+            pascalCase: true,
+          },
+        },
+      ],
     },
     parser: lang.parser,
     parserOptions: {
