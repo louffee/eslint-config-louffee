@@ -33,7 +33,7 @@ const base = ({ isBrowser } = {}) => {
       "plugin:unicorn/recommended",
       "plugin:promise/recommended",
       "plugin:jest/recommended",
-    ],
+    ].filter(Boolean),
   };
 };
 
