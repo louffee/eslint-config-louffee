@@ -104,7 +104,7 @@ const base = ({ isBrowser } = {}) => {
       'no-alert': 'error',
       semi: ['error', 'never'],
       '@typescript-eslint/semi': ['error', 'never'],
-      'no-unused-vars': 'error',
+      'no-unused-vars': 'off',
       'no-useless-escape': 'off',
       'no-useless-constructor': 'error',
       'no-useless-concat': 'error',
