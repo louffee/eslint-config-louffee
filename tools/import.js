@@ -6,7 +6,7 @@ module.exports = {
   rules: {
     'import/no-default-export': DISABLED,
     'import/no-anonymous-default-export': ERROR,
-    'import/no-unresolved': ERROR,
+    'import/no-unresolved': DISABLED, // Conflict with TypeScript rules
     'import/no-unassigned-imports': DISABLED,
     'import/exports-last': ERROR,
     'import/order': [
