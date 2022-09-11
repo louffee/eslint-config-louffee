@@ -57,7 +57,7 @@ const base = ({ isBrowser } = {}) => {
       'unicorn/empty-brace-spaces': 'error',
       'unicorn/no-array-method-this-argument': 'error',
       'unicorn/consistent-function-scoping': 'warn',
-      'unicorn/consistent-deconstructing': 'warn',
+      'unicorn/consistent-destructuring': 'warn',
       'unicorn/no-array-push-push': 'error',
       'unicorn/no-process-exit': 'error',
       'unicorn/no-console-spaces': 'error',
