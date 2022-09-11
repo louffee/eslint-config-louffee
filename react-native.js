@@ -1,6 +1,6 @@
-const react = require("./react");
+const react = require('./react')
 
-const reactNative = require("./tools/react-native");
+const reactNative = require('./tools/react-native')
 
 module.exports = {
   ...react,
@@ -12,4 +12,4 @@ module.exports = {
     ...react.rules,
     ...reactNative.rules,
   },
-};
+}

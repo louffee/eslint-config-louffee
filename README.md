@@ -1,6 +1,6 @@
 # Louffee ESLint Configuration
 
-*A great way to start.*
+_A great way to start._
 
 > **Note**: The configuration is based on the [ESLint](https://eslint.org) plugin for the IDE or code editor of your choice, and is compatible with the ESLint ecosystem present in the [NPM Package of same name](https://npmjs.com/package/eslint).
 
@@ -58,7 +58,7 @@ pnpm install --dev eslint-config-louffee @typescript-eslint/eslint-plugin @types
 To use the Louffee’s configuration, create a new file named `.eslintrc.js` in the root of your project, and add the following content:
 
 ```js
-module.exports = require('eslint-config-louffee');
+module.exports = require('eslint-config-louffee')
 ```
 
 (Optional) Also create a `.eslintignore` file in the root of your project, then add the following line:

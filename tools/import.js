@@ -1,15 +1,15 @@
-const DISABLED = "off";
-const ERROR = "error";
+const DISABLED = 'off'
+const ERROR = 'error'
 
 module.exports = {
-  plugins: ["import"],
+  plugins: ['import'],
   rules: {
-    "import/no-default-export": DISABLED,
-    "import/no-unassigned-import": [
+    'import/no-default-export': DISABLED,
+    'import/no-unassigned-import': [
       ERROR,
       {
-        allow: ["**/*.d.ts", "**/*.css", "**/*.scss", "*/**.sass"],
+        allow: ['**/*.d.ts', '**/*.css', '**/*.scss', '*/**.sass'],
       },
     ],
   },
-};
+}

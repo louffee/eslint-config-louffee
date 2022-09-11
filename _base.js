@@ -1,8 +1,8 @@
-const browser = require("./tools/browser");
-const __import = require("./tools/import");
-const jest = require("./tools/jest");
-const lang = require("./tools/lang");
-const promise = require("./tools/promise");
+const browser = require('./tools/browser')
+const __import = require('./tools/import')
+const jest = require('./tools/jest')
+const lang = require('./tools/lang')
+const promise = require('./tools/promise')
 
 const base = ({ isBrowser } = {}) => {
   return {
@@ -11,9 +11,9 @@ const base = ({ isBrowser } = {}) => {
       ...jest.plugins,
       ...lang.plugins,
       ...promise.plugins,
-      isBrowser && "compat",
-      "regexp",
-      "unicorn",
+      isBrowser && 'compat',
+      'regexp',
+      'unicorn',
     ].filter(Boolean),
     env: isBrowser ? browser.env : {},
     rules: {
@@ -21,8 +21,8 @@ const base = ({ isBrowser } = {}) => {
       ...jest.rules,
       ...lang.rules,
       ...promise.rules,
-      "unicorn/filename-case": [
-        "error",
+      'unicorn/filename-case': [
+        'error',
         {
           cases: {
             camelCase: true,
@@ -36,14 +36,14 @@ const base = ({ isBrowser } = {}) => {
       ...lang.parserOptions,
     },
     extends: [
-      "eslint:recommended",
-      isBrowser && "plugin:compat/recommended",
-      "plugin:regexp/recommended",
-      "plugin:unicorn/recommended",
-      "plugin:promise/recommended",
-      "plugin:jest/recommended",
+      'eslint:recommended',
+      isBrowser && 'plugin:compat/recommended',
+      'plugin:regexp/recommended',
+      'plugin:unicorn/recommended',
+      'plugin:promise/recommended',
+      'plugin:jest/recommended',
     ].filter(Boolean),
-  };
-};
+  }
+}
 
-module.exports = base;
+module.exports = base

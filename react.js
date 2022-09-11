@@ -1,7 +1,7 @@
-const react = require("./tools/react");
-const reactHooks = require("./tools/react-hooks");
+const react = require('./tools/react')
+const reactHooks = require('./tools/react-hooks')
 
-const base = require("./_base")({ isBrowser: true });
+const base = require('./_base')({ isBrowser: true })
 
 module.exports = {
   ...base,
@@ -13,4 +13,4 @@ module.exports = {
     ...react.rules,
     ...reactHooks.rules,
   },
-};
+}
