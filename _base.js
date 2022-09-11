@@ -86,6 +86,8 @@ const base = ({ isBrowser } = {}) => {
             req: false,
             ctx: false,
             arg: false,
+            err: true,
+            Props: true,
           },
         },
       ],
