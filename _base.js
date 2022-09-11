@@ -74,6 +74,21 @@ const base = ({ isBrowser } = {}) => {
       ],
       'unicorn/no-keyword-prefix': 'off',
       'unicorn/no-lonely-if': 'error',
+      'unicorn/prevent-abbreviations': [
+        'error',
+        {
+          allowList: {
+            props: true,
+            getInitialProps: true,
+            e: false,
+            p: false,
+            res: false,
+            req: false,
+            ctx: false,
+            arg: false,
+          },
+        },
+      ],
 
       'no-lonely-if': 'error',
       'no-else-return': 'error',
