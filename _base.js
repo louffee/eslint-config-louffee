@@ -14,7 +14,7 @@ const base = ({ isBrowser } = {}) => {
       isBrowser && "compat",
       "regexp",
       "unicorn",
-    ],
+    ].filter(Boolean),
     env: isBrowser ? browser.env : {},
     rules: {
       ...__import.rules,
